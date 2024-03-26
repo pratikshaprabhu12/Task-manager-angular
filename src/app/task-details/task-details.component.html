@@ -1,0 +1,9 @@
+<div class="task-details-container">
+  <div *ngIf="task" class="task-details">
+    <h2>{{ task.title }}</h2>
+    <p>Description: {{ task.description }}</p>
+    <p>Due Date: {{ task.dueDate | date }}</p>
+    <p>Status: {{ task.status ? 'Completed' : 'Not Completed' }}</p>
+    <button class="btn-edit" (click)="editTask()">Edit</button>
+  </div>
+</div>

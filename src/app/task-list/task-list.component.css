@@ -1,0 +1,54 @@
+.task-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .task-item {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .task-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .due-date {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .btn-mark-completed,
+  .btn-delete {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-mark-completed {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .btn-mark-completed:hover,
+  .btn-delete:hover {
+    background-color: #218838;
+  }
+  
+  
