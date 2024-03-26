@@ -2,6 +2,26 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.1.
 
+## Installation
+
+1. Make sure you have Node.js and npm installed.
+  
+2. Install Angular CLI globally:
+
+   npm install -g @angular/cli
+   
+3. Clone the Repository
+   
+  git clone https://github.com/your-username/your-repository.git
+
+4. Navigate to the project directory:
+
+  cd your-repository
+
+5. Install dependencies:
+
+  npm install or yarn install
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
